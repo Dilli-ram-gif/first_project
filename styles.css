@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: Center;
+    padding: 20px 0;
+}
+
+header ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.menu {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.logo {
+    width: 110px;
+}
+
+.first-background {
+    background: url(background-one.jpg);
+    height: 400px;
+    width: 1200px;
+    background-size: cover;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.services {
+    background: #d0ece7;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    margin-bottom: 70px;
+    text-align: center;
+    
+}
+
+.sub-box img {
+    width: 100%;
+}
+
+.sub-box {
+    flex-basis: 23%;
+}
+
+.second-background {
+    background: #d5f5e3 url(background-two.jpg) no-repeat;
+    height: 350px;
+    width: 1200px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.business {
+    background: #d0ece7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 50px 30px;
+    margin-top: 50px;
+}
+
+.business img {
+    width: 100%;
+    padding: 20px;
+}
+
+.business-class {
+    flex-basis: 23%;
+}
+
+.covid-class {
+    background: #D0ECE7;
+    padding: 20px;
+    margin: 70px auto;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.last-background {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz7eIqDgKwnT-HGiHkGEGZT-qFNyzFHOquSQ&usqp=CAU);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.follow-us ul {
+    display: flex;
+}
+
+.follow-us ul li {
+    font-size: 30px;
+    padding-left: 0;
+    padding-right: 50px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    list-style: none;
+}
+
+.footer {
+    background: #EAECEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.footer ul{
+    list-style: none;
+    line-height: 1.8;
+    font-size: 14px;
+    /* text-align: center; */
+}
